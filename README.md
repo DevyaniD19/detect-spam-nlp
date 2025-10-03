@@ -74,3 +74,14 @@ Spam / Ham prediction
 - NLTK — text preprocessing and stopwords
 - scikit-learn — ML pipeline, TF-IDF, Naive Bayes, evaluation metrics
 - Jupyter Notebook
+
+## 📊 Confusion Matrix & Metrics
+
+| Metric | Value |
+|--------|-------|
+| Accuracy | ~98.4% |
+| Precision (spam) | ~99% |
+| Recall (spam) | ~94% |
+| F1 Score (spam) | ~96% |
+
+The model achieves high precision — very few legitimate messages are incorrectly flagged as spam.
