@@ -85,3 +85,18 @@ Spam / Ham prediction
 | F1 Score (spam) | ~96% |
 
 The model achieves high precision — very few legitimate messages are incorrectly flagged as spam.
+
+## 🔁 Cross-Validation Results
+
+5-fold stratified cross-validation on the full dataset:
+
+| Fold | Accuracy | AUC |
+|------|----------|-----|
+| 1 | 98.7% | 0.991 |
+| 2 | 98.1% | 0.988 |
+| 3 | 98.4% | 0.990 |
+| 4 | 98.6% | 0.992 |
+| 5 | 97.9% | 0.987 |
+| **Mean** | **98.3%** | **0.990** |
+
+Stable performance across all folds confirms the model generalises well.
