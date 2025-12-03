@@ -100,3 +100,11 @@ The model achieves high precision — very few legitimate messages are incorrect
 | **Mean** | **98.3%** | **0.990** |
 
 Stable performance across all folds confirms the model generalises well.
+
+## 🔮 Future Improvements
+
+- [ ] Experiment with deep learning approaches (LSTM, BERT)
+- [ ] Handle multilingual SMS spam
+- [ ] Add real-time inference API endpoint (FastAPI)
+- [ ] Deploy as a lightweight web demo
+- [ ] Explore ensemble methods for higher recall
