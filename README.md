@@ -1,5 +1,10 @@
 # SMS Spam Detection using NLP
 
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)](https://www.python.org/)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange?logo=scikitlearn)](https://scikit-learn.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+
 A machine learning project that classifies SMS messages as **spam** or **ham (legitimate)** using Natural Language Processing techniques and a Naive Bayes classifier.
 
 ## Overview
